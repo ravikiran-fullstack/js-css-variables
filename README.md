@@ -5,13 +5,15 @@
 ### Learnt how to use and update CSS variables using Javascript
 
    Declare and Define CSS variables in CSS file
+   ```javascript
     :root{
       --base: #ffaaff;
       --spacing: 0px;
       --blur: 0px;
     }
-    
+   ```
   Use them to style any components
+  ```javascript
   img{
       background-color: var(--base);
       padding: var(--spacing);
@@ -21,6 +23,7 @@
   .hl{
       color: var(--base);
   }
+  ```
   
   using Javascript access and modify these CSS variables using the below code
   

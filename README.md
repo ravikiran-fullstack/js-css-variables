@@ -28,7 +28,7 @@
   using Javascript access and modify these CSS variables using the below code
   
   ```javascript
-         const suffix = this.dataset.sizing || '';
-         document.documentElement.style.setProperty(`--${this.name}`, `${this.value}${suffix}`)
+   const suffix = this.dataset.sizing || '';
+   document.documentElement.style.setProperty(`--${this.name}`, `${this.value}${suffix}`)
    ```
   
